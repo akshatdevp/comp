@@ -1,8 +1,11 @@
+//code to convert string of integers separated by spaces to a vector of integers.
 #include<iostream>
 #include<string>
 #include<vector>
 #include<sstream>
 #include<algorithm>
+// include <bits/stdc++.h> instead of all the above includes if you want to save time.
+
 using namespace std;
 vector<int> convert_string_with_spaces_to_vector(string s)
 {
